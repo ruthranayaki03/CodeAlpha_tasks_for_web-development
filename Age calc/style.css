@@ -1,0 +1,92 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    background-image: url(./pexels-shvets-2563386.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-size:cover;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(217, 159, 73);
+}
+
+p {
+    font-size: 18px;
+    color: black;
+}
+
+.base {
+    border: 2px solid black;
+    box-shadow: inset 0 0 3lvh black;
+
+}
+
+.container {
+    width: 462px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    height: auto;
+    margin: 100px auto;
+    box-shadow: inset 0 0 8lvh black;
+}
+
+.block {
+    display: inline-block;
+    width: 120px;
+    padding: 5px;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+input {
+    width: 55px;
+    padding: 10px;
+    text-align: left;
+    background-color: transparent;
+    border: 2px solid rgb(48, 44, 44);
+    border-radius: 7px;
+    outline: none;
+    font-size: 15px;
+    margin: 0;
+    color: white;
+    
+}
+
+button {
+    color: rgb(235, 199, 161);
+    background-color:transparent;
+    border-radius: 20px;
+    padding: 10px 10px;
+    width: 90px;
+    margin-left: 38%;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    border: 1px solid rgb(226, 125, 30);
+    box-shadow: inset 0 0 2lvh rgb(226, 125, 30);
+
+}
+
+button:hover {
+    color: rgb(23, 123, 46);
+    transition-property: box-shadow;
+    transition-duration: 20s;
+}
+
+.age {
+    padding: 20px;
+    overflow: hidden;
+    font-size: 23px;
+    line-height: 1.5;
+    word-spacing: 3px;
+    color: rgb(242, 213, 170);
+    text-align: center;
+
+}

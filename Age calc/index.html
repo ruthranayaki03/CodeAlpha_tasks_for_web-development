@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Age calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="base">
+      <h1><i>Welcome to Age Atlas</i></h1>
+    </div>
+    <div class="block">
+      <p><b>Date</b></p>
+      <input type="text" name="date" id="date" placeholder="dd" minlength="1" maxlength="2" />
+    </div>
+    <div class="block">
+      <p><b>Month</b></p>
+      <input type="text" name="month" id="month" placeholder="mm" minlength="1" maxlength="2" />
+    </div>
+    <div class="block">
+      <p><b>Year</b></p>
+      <input type="text" name="year" id="year" placeholder="yyyy" minlength="4" maxlength="4" />
+    </div>
+
+    <button name="submit" value="submit" onclick="age()">Submit</button>
+
+    <div class="age" id="age"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
